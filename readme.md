@@ -4,7 +4,7 @@ Server
 Creating a chat server is super simple.
 
 	// create a server at http://localhost:8001
-	var chat = require("lib/server");
+	var chat = require("lib/server"); //url querystring etc.
 	var chatServer = chat.createServer();
 	chatServer.listen(8001);
 
